@@ -1,4 +1,4 @@
-# Author: <YOUR NAME> (<YOUR BITS ID>) - ML Assignment 2, BITS Pilani WILP
+# Author: Kashish Bhandula (2026AK05429) - ML Assignment 2, BITS Pilani WILP
 """Train 5 classifiers on the UCI Dry Bean dataset and save them with metrics."""
 import json
 import joblib

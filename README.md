@@ -1,6 +1,6 @@
 # Dry Bean Variety Classification (ML Assignment 2)
 
-**Author:** <YOUR NAME> | **BITS ID:** <YOUR ID> | M.Tech (AIML), BITS Pilani WILP | Course: Machine Learning – Assignment 2
+**Author:** Kashish Bhandula | **BITS ID:** 2026AK05429 | M.Tech (AIML), BITS Pilani WILP | Course: Machine Learning – Assignment 2
 
 ## a. Problem Statement
 Classify dry beans into one of **7 varieties** (Barbunya, Bombay, Cali, Dermason, Horoz, Seker, Sira) from 16 geometric features extracted from images of the grains. Five classification models (Logistic Regression, Decision Tree, KNN, Naive Bayes, SVM) are trained on the same dataset, compared on six metrics, and exposed through a Streamlit app deployed on Streamlit Community Cloud.

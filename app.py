@@ -1,4 +1,4 @@
-# Author: <YOUR NAME> (<YOUR BITS ID>) - ML Assignment 2, BITS Pilani WILP
+# Author: Kashish Bhandula (2026AK05429) - ML Assignment 2, BITS Pilani WILP
 import os
 import joblib
 import numpy as np
