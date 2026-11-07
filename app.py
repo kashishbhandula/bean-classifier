@@ -19,7 +19,7 @@ MODEL_FILES = {
 }
 TARGET = "Class"
 
-st.set_page_config(page_title="Dry Bean Classifier", page_icon="🫘", layout="wide")
+st.set_page_config(page_title="Dry Bean Classifier", layout="wide")
 
 
 @st.cache_resource
@@ -32,7 +32,7 @@ def load_encoder():
     return joblib.load(os.path.join(BASE, "model", "label_encoder.joblib"))
 
 
-st.title("🫘 Dry Bean Variety Classification")
+st.title("Dry Bean Variety Classification")
 st.caption("Pre-trained models (no retraining) evaluated on an uploaded test CSV. "
            "Dataset: UCI Dry Bean (7 varieties, 16 shape features).")
 
@@ -88,7 +88,7 @@ metrics = {
     "MCC": matthews_corrcoef(y_true, y_pred),
 }
 
-st.subheader(f"Evaluation metrics — {model_name}")
+st.subheader(f"Evaluation metrics - {model_name}")
 cols = st.columns(6)
 for col, (k, v) in zip(cols, metrics.items()):
     col.metric(k, "n/a" if np.isnan(v) else f"{v:.4f}")
