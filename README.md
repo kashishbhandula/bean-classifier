@@ -14,7 +14,7 @@ Classify dry beans into one of **7 varieties** (Barbunya, Bombay, Cali, Dermason
 - **Preprocessing:** `StandardScaler` inside each scikit-learn `Pipeline` (scaler + classifier saved together as one `.joblib`). Target label-encoded (`model/label_encoder.joblib`).
 
 ## c. GitHub Repository Link  [1 mark]
-<PASTE YOUR GITHUB REPO URL HERE>
+https://github.com/kashishbhandula/bean-classifier
 
 Live app: <PASTE YOUR STREAMLIT URL HERE>
 
